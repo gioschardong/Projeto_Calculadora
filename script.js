@@ -15,7 +15,7 @@ function backspace(){
         resultado.innerHTML = result.substring(0, result.length -1);
     } 
 }
-
+ 
 function confirma(){
     if(resultado.textContent != 'Erro'){
         document.getElementById("resultado").innerHTML = eval(resultado.innerHTML)
